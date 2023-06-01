@@ -25,7 +25,7 @@ module.exports = {
         settings: {
             optimizer: {
                 enabled: true,
-                runs: 200,
+                runs: 100,
             },
         },
     },
@@ -39,10 +39,10 @@ module.exports = {
             url: process.env.POLYGON_MUMBAI_RPC,
             accounts: [process.env.POLYGON_MUMBAI_KEY],
         },
-        // polygon: {
-        //     url: process.env.POLYGON_MAINNET_RPC_URL,
-        //     accounts: [process.env.POLYGON_MAINNET_PRIVATE_KEY],
-        // },
+        polygon: {
+            url: process.env.POLYGON_MAINNET_RPC_URL,
+            accounts: [process.env.POLYGON_MAINNET_PRIVATE_KEY],
+        },
         // ethMainnet: {
         //     url: process.env.MAINNET_RPC_URL,
         //     accounts: [process.env.MAINNET_PRIVATE_KEY],
