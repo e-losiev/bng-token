@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# BNG Token ERC20 Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Deployed to the Polygon Mainnet. [Polygonscan link](https://polygonscan.com/address/0x031e995926966156484b5b3159628d68e5335d1c)
 
-Try running some of the following tasks:
+## Smart contract address
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+0x031E995926966156484B5b3159628d68e5335d1c
